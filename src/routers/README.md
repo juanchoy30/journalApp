@@ -39,11 +39,11 @@ export const AppRouter = () => {
 };
 ```
 
- - <Router>: is the main container of the controller. AuthRouter.js does not require <Router> because it is contained within the <Router> of AppRouter.js
+ - `<Router>`: is the main container of the controller. AuthRouter.js does not require `<Router>` because it is contained within the `<Router>` of AppRouter.js
 
- - <Switch>: Permits the presence of various routes.
+ - `<Switch>`: Permits the presence of various routes.
 
- - <Route>: is the container of the individual view.
+ - `<Route>`: is the container of the individual view.
 
  - path: Defines the URL path to access the route.
 
@@ -51,15 +51,15 @@ export const AppRouter = () => {
 
  - component: The component needed to be shown with this path must be placed within the component.
 
- - <Redirect to="">: Redirects the user to a desire URL location if a wrong URL is written.  
+ - `<Redirect to="">`: Redirects the user to a desire URL location if a wrong URL is written.  
 
 # AppRouter.js
 
-This file manages the main view, which is in the <JournalScreen /> component, and the <AuthRouter /> component.
+This file manages the main view, which is in the `<JournalScreen />` component, and the `<AuthRouter />` component.
 
 # AuthRouter.js
 
-This files manages the <LoginScreen /> and <RegisterScreen /> components.
+This files manages the `<LoginScreen />` and `<RegisterScreen />` components.
 
 
 # Português
@@ -103,11 +103,11 @@ export const AppRouter = () => {
 };
 ```
 
-- <Router>: é o contêiner principal do controlador. AuthRouter.js não requer de <Router> porque ele mesmo é contido no <Router> de AppRotuer.js
+- `<Router>`: é o contêiner principal do controlador. AuthRouter.js não requer de `<Router>` porque ele mesmo é contido no `<Router>` de AppRotuer.js
 
- - <Switch>: permite a presença de várias rotas.
+ - `<Switch>`: permite a presença de várias rotas.
 
- - <Route>: é o contêiner da visualização individual
+ - `<Route>`: é o contêiner da visualização individual
 
  - path: Define o "path" da URL para acessar à rota.
 
@@ -115,12 +115,12 @@ export const AppRouter = () => {
 
  - component: O componente requer a ser mostrado com o "path" deve ser colocado dentro do componente.
 
- - <Redirect to="">: Redireciona o usuário para o URL desejado em caso de um URL incorreto seja escrito.
+ - `<Redirect to="">`: Redireciona o usuário para o URL desejado em caso de um URL incorreto seja escrito.
 
  # AppRouter.js
 
-Este arquivo controla a visualização principal, contida no componente <JornalScreen />, e o componente <AuthRouter />
+Este arquivo controla a visualização principal, contida no componente `<JornalScreen />`, e o componente `<AuthRouter />`
 
 # AuthRouter.js
 
-Este arquivo controla os componentes <LoginScreen /> e <RegisterScreen />
+Este arquivo controla os componentes `<LoginScreen />` e `<RegisterScreen />`
